@@ -2,7 +2,7 @@
 
 int sum(int a, int b)
 {
-    return a + b;
+    return a + b; // 수정
 }
 
 int main()
