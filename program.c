@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int sum(int a, int b)
+int fib(int n)
 {
-    return a + b;
+    if (n <= 1) return n;  // main 브랜치에서 간단히 변경
+    return fib(n-1) + fib(n-2);
 }
 
 int main()
